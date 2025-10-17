@@ -1,6 +1,18 @@
-﻿namespace ID-VET.Components.Pages
-{
-    public class Raports
-    {
-    }
+﻿.download-list {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
 }
+
+    .download-list a {
+        display: inline-block;
+        margin-top: 5px;
+        color: #0078d7;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .download-list a:hover {
+            text-decoration: underline;
+        }

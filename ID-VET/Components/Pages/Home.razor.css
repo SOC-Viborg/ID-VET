@@ -20,20 +20,91 @@
     z-index: 1;
 }*/
 .home-background {
-    width: 100vw; /* повна ширина вікна браузера */
+    width: 100vw;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
 .background-img {
-    width: 100vw; /* повністю розтягує по ширині */
+    width: 100vw;
     height: auto;
     display: block;
-    object-fit: cover; /* обрізає зайве, але не спотворює */
+    object-fit: cover; 
 }
 
-/* при потребі прибери горизонтальний скрол */
 html, body {
     overflow-x: hidden;
+}
+.map-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.partner-link {
+    position: absolute;
+    display: block;
+    opacity: 0; 
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+    .partner-link:hover {
+        opacity: 0.3;
+        background-color: rgba(0, 43, 92, 0.3);
+        border-radius: 8px;
+    }
+
+
+
+.somorrostro {
+    left: 3.3%;
+    top: 16.28%;
+    width: 10%;
+    height: 15%;
+}
+.rakvere {
+    left: 15.5%;
+    top: 16.28%;
+    width: 10%;
+    height: 15%;
+}
+.suceava {
+    left: 29.65%;
+    top: 16.28%;
+    width: 9.15%;
+    height: 14.32%;
+}
+
+.mercantec {
+    left: 7.3%;
+    top: 33.85%;
+    width: 10%;
+    height: 14%;
+}
+
+.noorderpoort {
+    left: 19.5%;
+    top: 35.16%;
+    width: 14.64%;
+    height: 8.46%;
+}
+.studentpulse {
+    left: 2.8%;
+    top: 7.5%;
+    width: 17%;
+    height: 7%;
+}
+.XARXA {
+    left: 3.3%;
+    top: 52%;
+    width: 11%;
+    height: 9%;
 }
