@@ -1,6 +1,41 @@
-﻿namespace ID-VET.Components.Pages
-{
-    public class About
-    {
-    }
+﻿.map-container {
+    position: relative;
+    width: 100%;
+    min-height: 95vh;
+    overflow: hidden;
 }
+
+
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.22;
+    z-index: 0;
+}
+
+.download-list {
+    position: relative;
+    z-index: 1;
+    color: #002b5c;
+    font-size: 1.1rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 3rem auto;
+    backdrop-filter: blur(3px);
+}
+
+    .download-list a {
+        color: #004080;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        .download-list a:hover {
+            text-decoration: underline;
+        }
