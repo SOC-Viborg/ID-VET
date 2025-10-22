@@ -15,7 +15,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Праве меню -->
+        <!-- Right menu -->
         <div class="collapse navbar-collapse justify-content-end" id="navMenu">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -24,9 +24,23 @@
                 <li class="nav-item">
                     <NavLink class="nav-link" href="about">About</NavLink>
                 </li>
-                <li class="nav-item">
-                    <NavLink class="nav-link" href="partners">Partners</NavLink>
+               
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="partnersDropdown"
+                       role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Partners
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="partnersDropdown">
+                        <li><NavLink class="dropdown-item" href="partners/noorderpoort">Noorderpoort</NavLink></li>
+                        <li><NavLink class="dropdown-item" href="partners/mercantec">Mercantec</NavLink></li>
+                        <li><NavLink class="dropdown-item" href="partners/rakvere">Rakvere Ametikool</NavLink></li>
+                        <li><NavLink class="dropdown-item" href="partners/samuil_isopescu">Samuil Isopescu</NavLink></li>
+                        <li><NavLink class="dropdown-item" href="partners/somorrostro">Somorrostro</NavLink></li>
+                                           
+                    </ul>
                 </li>
+
+              
                 <li class="nav-item">
                     <NavLink class="nav-link" href="reports">Reports</NavLink>
                 </li>
