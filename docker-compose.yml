@@ -3,7 +3,7 @@ services:
     image: ${DOCKER_REGISTRY-}idvet
     build:
       context: .
-      dockerfile: BlazorDockerApp/Dockerfile
+      dockerfile: ID-VET/Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
       - ASPNETCORE_URLS=http://+:8080
