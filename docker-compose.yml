@@ -1,6 +1,6 @@
 services:
-  blazordockerapp:
-    image: ${DOCKER_REGISTRY-}blazordockerapp
+  idvet:
+    image: ${DOCKER_REGISTRY-}idvet
     build:
       context: .
       dockerfile: BlazorDockerApp/Dockerfile
