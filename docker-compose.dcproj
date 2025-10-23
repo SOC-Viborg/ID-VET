@@ -10,7 +10,7 @@
     <DockerServiceName>id-vet</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
-    <None Include=".evn" />
+    <None Include=".env" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
