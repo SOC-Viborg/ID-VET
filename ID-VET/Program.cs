@@ -12,7 +12,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddAuthorizationCore();
-builder.Services.AddAuthorizationCore(); 
 
 builder.Services.AddSingleton<UserStore>(); 
 builder.Services.AddScoped<CustomAuthStateProvider>();

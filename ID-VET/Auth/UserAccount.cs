@@ -2,9 +2,9 @@
 {
     public class UserAccount
     {
-        public string Username { get; set; } = default!;
-        public string Password { get; set; } = default!; 
+        public string Username { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
         public string Role { get; set; } = "User";       
-        public string DisplayName { get; set; } = default!;
+        public string DisplayName { get; set; } = string.Empty;
     }
 }

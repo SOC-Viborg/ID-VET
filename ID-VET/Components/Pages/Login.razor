@@ -4,6 +4,7 @@
 @inject AuthService AuthService
 @inject NavigationManager Nav
 
+
 <h3 class="login-title">Please sign in</h3>
 
 @if (!string.IsNullOrEmpty(ErrorMessage))
@@ -16,17 +17,16 @@
 
     <div class="form-group">
         <label>Username</label>
-        <InputText class="form-control" @bind-Value="LoginModel.Username" />
+        <InputText class="form-control" @bind-Value="@LoginModel.Username" />
     </div>
 
     <div class="form-group">
         <label>Password</label>
-        <InputText class="form-control" type="password" @bind-Value="LoginModel.Password" />
+        <InputText class="form-control" type="password" @bind-Value="@LoginModel.Password" />
     </div>
 
     <button type="submit" class="btn-login">Sign in</button>
 </EditForm>
-
 @code {
     private LoginModel LoginModel { get; set; } = new();
     private string? ErrorMessage;
